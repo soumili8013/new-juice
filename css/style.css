@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    font-family: 'Assistant', sans-serif;
+    cursor: pointer;
+}
+/* upper nav */
+header{
+    background-color: #70b046;
+    z-index: 111111;
+    position: relative;
+}
+.upnav{
+    font-size: 20px;
+    float: left;
+}
+.gift{
+    width: 140px;
+    font-size: 20px;
+}
+.gifft li a{
+    color: aliceblue;
+    padding: 14px;
+}
+.gifft li a:hover{
+    opacity:0.5 ;
+    color: antiquewhite;
+    }
+.gift >.fa{
+    float: left;
+    font-size: 35px;
+    padding: 9px 5%;
+    color: aliceblue;
+}
+/* .upnav li{
+    margin: 0 auto;
+} */
+.upnav li a{
+color: aliceblue;
+}
+.upnav li a:hover{
+opacity:0.5 ;
+color: antiquewhite;
+}
+
+
+/* 2nd nav */
+.sec-nav{
+    background-color: #fff;
+  
+}
+.brand >img{
+    width: 20%;
+}
+.nav-content{
+    padding-top: 5%;
+}
+
+
+/* banner */
+
+.banner{
+    background-image: url(../images/banner.webp);
+height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    color: #eeffe3;
+    font-size: 2rem;
+}
+
+.i-love{
+    text-align: left;
+    padding: 15% 0;
+}
+.i-love p{
+    font-size: 25px;
+    color: #3e3e3e;
+    padding: 4% 0;
+    font-weight: 600;
+
+}
+
+/* NEW Dangerous Day To Be A Berry! */
+
+.new{
+  background-color: #25bad2;
+}
+.new-div{
+    transform: skewY(-1deg);
+ 
+    overflow: hidden;
+  
+    background-color: #9b0834;
+}
+.Dangerous-content{
+    background-color: #70b046;
+    float: left;
+    padding: 5%;
+}
+.Dangerous-content h2{
+    color: #fff;
+    font-size: 2.3rem;
+}
+.Dangerous-content p{
+    color: #fff;
+    padding: 4%;
+    font-size: 20px;
+}
+.danger{
+    background-color: #9b0834;
+    transform: skew(-22deg, -2deg);
+}
+.Dangerous-content-one >img{
+    transform: skew(33deg, 0deg);
+    padding: 19%;
+}
+.Dangerous-content-one{
+    background-color: #9b0834;
+    transform: skewX(-12deg);
+}
+
+
+/* vibe */
+
+.vibe{
+    background-image: url(../images/secbg.jpg);
+height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    color: #eeffe3;
+    font-size: 2rem;
+}
+.vibe p{
+    font-size: 20px;
+    width: 36%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 28px;
+    padding: 2% 0;
+ 
+}
+.vibe h1{
+    font-size: 3rem;
+    letter-spacing: 8px;
+    font-weight: bold;
+    padding-top: 5%;
+    font-family: 'Abril Fatface', cursive;
+}
+/* Find a Boost Juice Store */
+
+.find{
+color: #fff;
+padding: 5%;
+    background-color: #70b046;
+    text-align: center;
+}
+
+.find-demo{
+    transform: skewY(-2deg);
+    background-color: #70b046;
+}
+.find h2{
+    padding: 1% 0;
+    font-weight: 800;
+}
+.ft-input{
+    padding:7%;
+
+}
+.find  >img{
+    width: 14%;
+}
+/* footer */
+.ft-nav li a{
+    color:#70b046;
+
+}
+.ft-button{
+    display: flex;
+}
+.icon{
+    padding-top: 5%;
+}
+.button-5 .fa{
+    margin: 0 0px 0px 13px;
+}
+footer{
+    text-align: center;
+    padding: 1%;
+    background-color: #fafafa;
+}
+.icon .fa{
+    background: #70b046;
+    border-radius: 100%;
+    padding: 18px;
+    font-size: 15px;
+    margin: 1%;
+    color: #fff;
+}
+.footer-p{
+    color:rgb(130, 131, 131);
+    padding: 1%;
+    display: flex;
+    margin: 0 auto;
+}

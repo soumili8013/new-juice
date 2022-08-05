@@ -1,0 +1,53 @@
+
+@media (max-width: 575px){
+
+
+    header{
+        display: none;
+    }
+/* 2nd nav */
+
+.sec-nav{
+
+    margin-top: 0;
+}
+
+.i-love{
+    padding: 34% 0;
+}
+.nav-content{
+    margin-top: 10%;
+}
+
+/* banner */
+.banner>img{
+    margin-top: 30%;
+}
+
+  
+/* vibe */
+    .vibe p {
+        width: auto;
+    }
+    .ft-button{
+        display: grid;
+    }
+
+    .new-div {
+         transform: skewY(-0deg);
+
+    }
+
+
+      /* footer */
+      .ft-img >img{
+        margin: 1%;
+    }
+
+    .ft-nav{
+        display: grid;
+    }
+    .footer-p{
+        display: grid;
+    }
+}

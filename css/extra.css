@@ -1,0 +1,134 @@
+
+/* CSS */
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+
+
+​#mainNav {
+  min-height: 3.5rem;
+  background-color: #fff;
+}
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #64a19d;
+  border: 1px solid #64a19d;
+}
+#mainNav .navbar-toggler:focus {
+  outline: none;
+}
+#mainNav .navbar-brand {
+  color: #000000;
+  font-weight: 700;
+  padding: 0.9rem 0;
+}
+/* .navbar-light .navbar-nav .nav-link.active
+.navbar-light .navbar-nav .nav-link:hover{
+  background-color: aqua !important;
+} */
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(#fff, 80%);
+  outline: none;
+  background-color: transparent;
+}
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    padding: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #mainNav .nav-link {
+    transition: none;
+    padding: 4rem 1.5rem;
+    color: rgb(22 66 3 / 50%);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #mainNav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  #mainNav .nav-link:active {
+    color: rgb(12, 192, 144)!important;
+  }
+  #mainNav.navbar-shrink {
+    background-color: #fff!important;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #000000!important;
+  }
+  #mainNav.navbar-shrink .nav-link {
+    color: #000000!important;
+    padding: 1.5rem 1.5rem 1.25rem!important;
+    border-bottom: 0.25rem solid transparent!important;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #64a19d!important;
+    border-bottom: 0.25rem solid #64a19d!important;
+
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #467370!important;
+
+  }
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #64a19d!important;
+
+    outline: none!important;
+    border-bottom: 0.25rem solid #64a19d!important;
+  }
+
+
